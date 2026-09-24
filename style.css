@@ -19,13 +19,15 @@ body {
   background: var(--page-background);
   color: var(--text-color);
   font-family: "Be Vietnam Pro", Arial, Helvetica, sans-serif;
-  font-size: 22px;
-  line-height: 26px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0;
 }
 
 .container {
-  width: 100%;
-  padding-inline: var(--gap);
+  width: 1366px;
+  padding-inline: 0;
   margin-inline: auto;
 }
 
@@ -98,9 +100,11 @@ body {
   height: 80px;
   margin: 0 auto 80px;
   font-family: "Lora", Georgia, "Times New Roman", serif;
-  font-size: inherit;
-  font-weight: 400;
-  line-height: inherit;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-align: center;
 }
 
 .card-list {
@@ -142,4 +146,10 @@ body {
   width: 100%;
   height: 72px;
   background: var(--footer-background);
+  font-family: "Be Vietnam Pro", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-align: center;
 }
