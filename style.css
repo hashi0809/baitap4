@@ -1,0 +1,145 @@
+:root {
+  color-scheme: light;
+  --page-background: #ffffff;
+  --section-background: #f1f1f1;
+  --box-background: #e2e2e2;
+  --footer-background: #d9d9d9;
+  --text-color: #353535;
+  --gap: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  background: var(--page-background);
+  color: var(--text-color);
+  font-family: "Be Vietnam Pro", Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.container {
+  width: 100%;
+  padding-inline: var(--gap);
+  margin-inline: auto;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  background: var(--box-background);
+  border-radius: 8px;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.site-header {
+  width: 100%;
+  padding-block: 20px;
+}
+
+.header-layout {
+  display: flex;
+  align-items: center;
+  gap: var(--gap);
+}
+
+.logo {
+  flex: 0 0 200px;
+  height: 60px;
+}
+
+.menu {
+  flex: 0 0 820px;
+  height: 34px;
+}
+
+.header-button {
+  flex: 0 0 120px;
+  height: 42px;
+}
+
+.hero {
+  width: 100%;
+  padding-block: 80px;
+  background: var(--section-background);
+}
+
+.hero-layout {
+  display: flex;
+  align-items: center;
+  gap: var(--gap);
+}
+
+.hero-content {
+  flex: 0 0 585px;
+  height: 267px;
+}
+
+.hero-image {
+  flex: 0 0 585px;
+  height: 520px;
+}
+
+.section {
+  width: 100%;
+  padding-block: 80px;
+}
+
+.section-title {
+  width: 600px;
+  height: 80px;
+  margin: 0 auto 80px;
+  font-family: "Lora", Georgia, "Times New Roman", serif;
+  font-size: inherit;
+  font-weight: 400;
+  line-height: inherit;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+  justify-content: center;
+}
+
+.feature-card {
+  flex: 0 0 380px;
+  height: 420px;
+}
+
+.collection {
+  background: var(--section-background);
+}
+
+.collection .section-title {
+  margin-bottom: 40px;
+}
+
+.small-card {
+  height: 300px;
+}
+
+.collection-list .small-card {
+  flex: 0 0 216px;
+}
+
+.related-list .small-card {
+  flex: 0 0 277.5px;
+}
+
+.site-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 72px;
+  background: var(--footer-background);
+}
