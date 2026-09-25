@@ -101,7 +101,7 @@ body {
 .section-title {
   width: 600px;
   height: 80px;
-  margin: 0 auto 80px;
+  margin: 0 auto 40px;
   font-family: "Lora", Georgia, "Times New Roman", serif;
   font-size: 20px;
   font-weight: 700;
@@ -124,10 +124,6 @@ body {
 
 .collection {
   background: var(--section-background);
-}
-
-.collection .section-title {
-  margin-bottom: 40px;
 }
 
 .small-card {
