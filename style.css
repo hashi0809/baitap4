@@ -50,8 +50,8 @@ body {
 .header-layout {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: var(--gap);
+  gap: 30px;
+  padding-inline: 83px;
 }
 
 .logo {
@@ -67,6 +67,7 @@ body {
 .header-button {
   flex: 0 0 120px;
   height: 42px;
+  margin-left: auto;
 }
 
 .hero {
