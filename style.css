@@ -44,14 +44,13 @@ body {
 
 .site-header {
   width: 100%;
-  padding-block: 20px;
 }
 
 .header-layout {
   display: flex;
   align-items: center;
   gap: 30px;
-  padding-inline: 83px;
+  padding: 20px 83px;
 }
 
 .logo {
